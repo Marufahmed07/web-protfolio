@@ -1,10 +1,60 @@
-body { font-family: 'Courier New', Courier, monospaces;}
-h1 { font-size: 50px;}
-.name-highlight { color: darkorange;}
-.half{ float: left;
-width: 40%;
-margin-left: 5%;
-padding-left: 2%;}
+body { font-family: 'Courier New', Courier, monospaces;
+margin: 0;
+padding: 0;
+outline: 0;}
 
+h1 { font-size: 50px;}
+.highlight { color: darkorange;}
+.half{ float: left;
+width: 39%;
+margin-left: 5%;
+padding-left: 3%;}
+h2 { font-size: 40px;}
 
 .half img{width: 100%;}
+.banner {  
+     background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{height: 500px;
+    margin-bottom: 50px ;
+    color: rgb(100, 96, 96);
+}
+.button { background-image: linear-gradient( 45deg, tomato ,rgb(243, 143, 12));
+border-radius: 5px;
+font-weight: bold;
+padding: 8px 15px ;
+color: darkslategray;
+text-decoration: none;}
+.dream { 
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;}
+    
+p { display: block;
+    padding-right:36px;
+text-align: justify;}
+.single-blog { box-shadow: 5px 10px 30px 5px lightslategrey;
+    border-radius: 5px;
+    height: 70%;
+    background: white;
+}
+.experience { 
+    background-image: url( "images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#border-stack { 
+    border-left: tomato 5px solid;
+    border-image: linear-gradient(tomato ,green);
+    border-image-slice: 1;
+}
+#baby-stack { 
+    border-left: tomato 5px solid;
+    border-image: linear-gradient( 10deg ,rgb(166, 71, 255) ,green);
+    border-image-slice: 1;
+}
+ footer p { text-align: center;
+color: teal;
+font-size: 20px;}
